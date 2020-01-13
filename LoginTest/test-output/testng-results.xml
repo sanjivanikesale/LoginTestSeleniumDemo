@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-09T15:12:44 IST" name="PositiveTest" finished-at="2020-01-09T15:13:03 IST" duration-ms="19660">
+    <groups>
+    </groups>
+    <test started-at="2020-01-09T15:12:44 IST" name="PositiveLogInTest" finished-at="2020-01-09T15:13:03 IST" duration-ms="19660">
+      <class name="webAutomation.LoginTest.positivelogintest.PositiveLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:webAutomation.LoginTest.positivelogintest.PositiveLoginTest@77167fb7]" started-at="2020-01-09T15:12:44 IST" name="setUp" finished-at="2020-01-09T15:13:01 IST" duration-ms="17601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void webAutomation.LoginTest.positivelogintest.PositiveLoginTest.positive_Login(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@33a2499c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="positive_Login(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:webAutomation.LoginTest.positivelogintest.PositiveLoginTest@77167fb7]" started-at="2020-01-09T15:13:01 IST" name="positive_Login" finished-at="2020-01-09T15:13:02 IST" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[You logged into a secure area!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positive_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webAutomation.LoginTest.positivelogintest.PositiveLoginTest@77167fb7]" started-at="2020-01-09T15:13:02 IST" name="tearDown" finished-at="2020-01-09T15:13:03 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="sendMail()[pri:0, instance:webAutomation.LoginTest.positivelogintest.PositiveLoginTest@77167fb7]" started-at="2020-01-09T15:13:03 IST" name="sendMail" finished-at="2020-01-09T15:13:06 IST" duration-ms="2493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+      </class> <!-- webAutomation.LoginTest.positivelogintest.PositiveLoginTest -->
+    </test> <!-- PositiveLogInTest -->
+  </suite> <!-- PositiveTest -->
+</testng-results>

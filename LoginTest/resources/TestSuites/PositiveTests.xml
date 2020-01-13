@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveTest" verbose="1">
+	
+	<test name="PositiveLogInTest">
+		<parameter name="username" value="tomsmith"></parameter>
+		<parameter name="password" value="SuperSecretPassword!"></parameter>
+		<parameter name="expectedSuccessMessage" value="You logged into a secure area!"></parameter>
+		<classes>
+			<class name="webAutomation.LoginTest.positivelogintest.PositiveLoginTest" />
+		</classes>
+	</test>
+</suite>
